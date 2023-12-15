@@ -1,0 +1,15 @@
+# Ignore bundler config.
+/.bundle
+# Ignore all logfiles and tempfiles.
+/log/*
+/tmp/*
+
+
+# Ignore uploaded files in development.
+/storage/*
+/tmp/storage/*
+!/tmp/storage/
+.env
+config/master.key
+db/development.sqlite3
+db/test.sqlite3
