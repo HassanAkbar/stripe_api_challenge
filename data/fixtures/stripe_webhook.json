@@ -1,0 +1,148 @@
+{
+  "id": "evt_3ONFS6DveNh8GNXD2NBZrUTg",
+  "object": "event",
+  "api_version": "2023-10-16",
+  "created": 1702562390,
+  "data": {
+    "object": {
+      "id": "ch_3ONFS6DveNh8GNXD2bah72oB",
+      "object": "charge",
+      "amount": 1499,
+      "amount_captured": 1499,
+      "amount_refunded": 0,
+      "application": null,
+      "application_fee": null,
+      "application_fee_amount": null,
+      "balance_transaction": "txn_3ONFS6DveNh8GNXD20ZJZqdT",
+      "billing_details": {
+        "address": {
+          "city": null,
+          "country": null,
+          "line1": null,
+          "line2": null,
+          "postal_code": null,
+          "state": null
+        },
+        "email": null,
+        "name": null,
+        "phone": null
+      },
+      "calculated_statement_descriptor": "Stripe",
+      "captured": true,
+      "created": 1702562390,
+      "currency": "usd",
+      "customer": null,
+      "description": null,
+      "destination": null,
+      "dispute": null,
+      "disputed": false,
+      "failure_balance_transaction": null,
+      "failure_code": null,
+      "failure_message": null,
+      "fraud_details": {
+      },
+      "invoice": null,
+      "livemode": false,
+      "metadata": {
+      },
+      "on_behalf_of": null,
+      "order": null,
+      "outcome": {
+        "network_status": "approved_by_network",
+        "reason": null,
+        "risk_level": "normal",
+        "risk_score": 18,
+        "seller_message": "Payment complete.",
+        "type": "authorized"
+      },
+      "paid": true,
+      "payment_intent": null,
+      "payment_method": "card_1ONFS6DveNh8GNXDxGHLjc73",
+      "payment_method_details": {
+        "card": {
+          "amount_authorized": 1499,
+          "brand": "visa",
+          "checks": {
+            "address_line1_check": null,
+            "address_postal_code_check": null,
+            "cvc_check": "pass"
+          },
+          "country": "US",
+          "exp_month": 12,
+          "exp_year": 2024,
+          "extended_authorization": {
+            "status": "disabled"
+          },
+          "fingerprint": "e8MeN1fz76ySOBUj",
+          "funding": "credit",
+          "incremental_authorization": {
+            "status": "unavailable"
+          },
+          "installments": null,
+          "last4": "4242",
+          "mandate": null,
+          "multicapture": {
+            "status": "unavailable"
+          },
+          "network": "visa",
+          "network_token": {
+            "used": false
+          },
+          "overcapture": {
+            "maximum_amount_capturable": 1499,
+            "status": "unavailable"
+          },
+          "three_d_secure": null,
+          "wallet": null
+        },
+        "type": "card"
+      },
+      "receipt_email": null,
+      "receipt_number": null,
+      "receipt_url": "https://pay.stripe.com/receipts/payment/CAcaFwoVYWNjdF8xTzJaU2xEdmVOaDhHTlhEKNaU7KsGMgYDYJOa1Fc6LBaH-0LmfYxksSBsW59WUG2CjgUIRM8WpktPL6iGHafBfp5MygMZsiALYKAk",
+      "refunded": false,
+      "review": null,
+      "shipping": null,
+      "source": {
+        "id": "card_1ONFS6DveNh8GNXDxGHLjc73",
+        "object": "card",
+        "address_city": null,
+        "address_country": null,
+        "address_line1": null,
+        "address_line1_check": null,
+        "address_line2": null,
+        "address_state": null,
+        "address_zip": null,
+        "address_zip_check": null,
+        "brand": "Visa",
+        "country": "US",
+        "customer": null,
+        "cvc_check": "pass",
+        "dynamic_last4": null,
+        "exp_month": 12,
+        "exp_year": 2024,
+        "fingerprint": "e8MeN1fz76ySOBUj",
+        "funding": "credit",
+        "last4": "4242",
+        "metadata": {
+        },
+        "name": null,
+        "tokenization_method": null,
+        "wallet": null
+      },
+      "source_transfer": null,
+      "statement_descriptor": null,
+      "statement_descriptor_suffix": null,
+      "status": "succeeded",
+      "transfer_data": null,
+      "transfer_group": null
+    }
+  },
+  "livemode": false,
+  "pending_webhooks": 3,
+  "request": {
+    "id": "req_lzVYtH4GtFcxe3",
+    "idempotency_key": "b347cf26-022f-4182-837c-89a0ec782f5a"
+  },
+  "type": "charge.succeeded"
+}

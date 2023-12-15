@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "Invalid integer: o",
+    "param": "amount",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_zfAhmMraSBr8jb?t=1702625933",
+    "type": "invalid_request_error"
+  }
+}

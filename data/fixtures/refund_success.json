@@ -1,0 +1,17 @@
+{
+  "id": "re_3ONCyRDveNh8GNXD2mFoFBPT",
+  "object": "refund",
+  "amount": 1099,
+  "balance_transaction": "txn_3ONCyRDveNh8GNXD2NFJQX02",
+  "charge": "ch_3ONCyRDveNh8GNXD2acUy0c3",
+  "created": 1702557753,
+  "currency": "usd",
+  "destination_details": {"card":{"reference_status":"pending","reference_type":"acquirer_reference_number","type":"refund"},"type":"card"},
+  "metadata": {},
+  "payment_intent": null,
+  "reason": null,
+  "receipt_number": null,
+  "source_transfer_reversal": null,
+  "status": "succeeded",
+  "transfer_reversal": null
+}

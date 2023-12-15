@@ -1,0 +1,10 @@
+{
+  "error": {
+    "code": "parameter_invalid_integer",
+    "doc_url": "https://stripe.com/docs/error-codes/parameter-invalid-integer",
+    "message": "This value must be greater than or equal to 1.",
+    "param": "amount",
+    "request_log_url": "https://dashboard.stripe.com/test/logs/req_M9os9B45nNLRve?t=1702624939",
+    "type": "invalid_request_error"
+  }
+}
